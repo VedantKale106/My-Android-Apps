@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GuessTheNumber</string>
+    <string name="guess_the_number">Guess The Number</string>
+    <string name="enter_here">Enter Here</string>
+    <string name="testing_going_on">Testing going on</string>
+    <string name="check">Check</string>
+    <string name="restart">ReStart</string>
+    <string name="developer_s_page">Developer\'s Page</string>
+    <string name="you_are_gay">You Are Gay 🌚</string>
+    <string name="todo">TODO</string>
+    <string name="you_lost_you_are_gayy">You Lost , You are Gayy</string>
+    <string name="show">Show</string>
+</resources>

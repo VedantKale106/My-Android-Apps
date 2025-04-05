@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Rbook</string>
+    <string name="randi_booking">Randi Booking</string>
+    <string name="welcome_to_nrandi_booking">Welcome to \nRandi Booking</string>
+    <string name="this_app_is_developed_by_pain">This App is Developed By Pain</string>
+    <string name="animegirl">AnimeGirl</string>
+    <string name="animegirl2">AnimeGirl</string>
+    <string name="this_app_is_developed_by_vedant">This App Is Developed By Vedant</string>
+    <string name="visit_developer_s_page">Visit Developer\'s Page</string>
+    <string name="booknow">BookNow</string>
+    <string name="booknow1">BookNow</string>
+    <string name="_18">18+</string>
+    <string name="enter_budget">Enter Budget</string>
+    <string name="enter_your_preferences">Enter Your Preferences</string>
+    <string name="enter_boob_size">Enter Boob Size</string>
+    <string name="search_randi">Search Randi</string>
+    <string name="select_boob_type">Select Boob Type</string>
+
+    <string-array name="size">
+<item>SmallTits</item>
+<item>Medium</item>
+<item>Big Boobies</item>
+</string-array>
+</resources>

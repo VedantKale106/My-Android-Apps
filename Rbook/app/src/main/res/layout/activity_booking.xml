@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_10"
+    tools:context=".booking">
+
+    <EditText
+        android:id="@+id/budget"
+        android:layout_width="204dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="60dp"
+        android:autofillHints=""
+        android:background="#030404"
+        android:ems="10"
+        android:hint="@string/enter_budget"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#FFFF8D"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="355dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/enter_your_preferences"
+        android:textColor="#CCFF90"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/myPage"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck" />
+
+    <Spinner
+        android:id="@+id/boobSize"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:background="#000000"
+        android:backgroundTint="#B96C6C"
+        android:backgroundTintMode="multiply"
+        android:contextClickable="false"
+        android:gravity="bottom"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/budget"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="205dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:background="#0B0A0A"
+        android:text="@string/select_boob_type"
+        android:textColor="#FFFF8D"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/budget"
+        app:layout_constraintTop_toBottomOf="@+id/budget"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="217dp"
+        android:layout_height="67dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/search_randi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/myPage"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="18dp"
+        android:cropToPadding="true"
+        android:importantForAccessibility="no"
+        android:padding="10dp"
+        android:rotationX="-5"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/img_5"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

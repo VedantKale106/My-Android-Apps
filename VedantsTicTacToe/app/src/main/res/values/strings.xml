@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Vedant\'s TicTacToe</string>
+    <string name="dev_s_page">Dev\'s Page</string>
+    <string name="let_s_start">Let\'s Start</string>
+    <string name="tic_tac_toe_n_by_vedant_sensei">Tic Tac Toe \n By Vedant Sensei</string>
+    <string name="welcome_to_my_page">Welcome To My Page</string>
+    <string name="name">Name</string>
+    <string name="player_1">Player 1</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="player_2">Player 2</string>
+    <string name="play">Play</string>
+    <string name="home">Home</string>
+    <string name="play_again">Play Again</string>
+    <string name="let_s_play_tic_tac_toe">Let\'s Play Tic Tac Toe</string>
+    <string name="welcome_sensei">Welcome Sensei</string>
+    <string name="hi_my_name_is_vedant_i_am_a_second_year_student_currently_persuing_b_tech_at_pccoe_i_have_learnt_many_things_while_building_this_app_hope_you_enjoyed_it_thanks_for_using_bye">Hi !! My name is Vedant . I am a second year student , currently persuing B.Tech at PCCOE . I have learnt many things while building this app . Hope you enjoyed it . Thanks For Using !! BYE !!</string>
+</resources>
